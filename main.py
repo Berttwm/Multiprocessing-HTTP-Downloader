@@ -71,12 +71,12 @@ class MultiProcessDownloader():
 			total_content_size = int(requests.get(url, stream=True).headers['Content-Length'])
 			file_full_location = os.path.join(self.output_folder, filename)
 			if os.path.exists(file_full_location):
-			    temp_size = os.path.getsize(file_full_location)
-			    if total_content_size == temp_size:
-			        return
-			    print(f"[*] Redownloading remaining data for `{filename}` starting at `{temp_size}`/Byte")
+				temp_size = os.path.getsize(file_full_location)
+				if total_content_size == temp_size:
+					return
+				print(f"[*] Redownloading remaining data for `{filename}` starting at `{temp_size}`/Byte")
 			else:
-			    temp_size = 0
+				temp_size = 0
 			# Download from remaining size or from non remaining size
 			headers = {'Range': 'bytes=%d-' % temp_size}
 			copy_length = 16*1024*1024
