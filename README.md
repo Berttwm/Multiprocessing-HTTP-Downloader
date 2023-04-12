@@ -17,6 +17,8 @@ This project was intended to download multiple (>1000) large files (>10GB) relia
 
 4. Observe that the output folder has been created and will begin to fill that folder multiple files at a time.
 
+> Note: Mock inputs of varying sizes (`/input/tmp` has 7 files of 10GB) is provided inside the `./input` folder 
+
 ## 2 How it works ##
 The parser implementation is trivial and will not be covered in this section as you are free to change how you would like to parse multiple urls.
 
