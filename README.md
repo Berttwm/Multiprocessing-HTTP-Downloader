@@ -31,7 +31,7 @@ The inbuilt python module `concurrent.futures` is used which automatically deter
 You will notice this function which checks if the current file size in your respective `/output/<dir_name>` matches the content length of the http download request. It will begin from the range of the current size if the file has been partially downloaded. 
 ![image](https://user-images.githubusercontent.com/44689249/231371775-a5ecac14-6481-4a30-b925-7eb1c77fc39b.png)
 
-### Donwloading and writing to file ###
+### Downloading and writing to file ###
 `raise_for_status()` was used to maintain a persistent HTTP connection which prevents excessive "3-way-handshake" for every chunk. 
 
 `shutil.copyfileobj` had to be used instead of the conventional `f.write()` as it often resulted in incompleted file extraction/saving as the buffer was not cleared. This is specifically the case when the file size was large (1GB) and you have multiple concurrent downloads and extractions happening. This method ensures that the buffer is actively cleared which prevents the situation of the memory running out of space and eventually crashing the entire program when the buffer is unable to flush.
