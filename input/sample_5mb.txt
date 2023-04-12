@@ -1,0 +1,8 @@
+file_name	cdn_link
+sa_000020.tar	https://www.learningcontainer.com/download/sample-large-zip-file/?wpdmdl=1639&refresh=63b94b59a9fe61673087833
+sa_000021.tar	https://www.learningcontainer.com/download/sample-large-zip-file/?wpdmdl=1639&refresh=63b94b59a9fe61673087833
+sa_000022.tar	https://www.learningcontainer.com/download/sample-large-zip-file/?wpdmdl=1639&refresh=63b94b59a9fe61673087833
+sa_000023.tar	https://www.learningcontainer.com/download/sample-large-zip-file/?wpdmdl=1639&refresh=63b94b59a9fe61673087833
+sa_000024.tar	https://www.learningcontainer.com/download/sample-large-zip-file/?wpdmdl=1639&refresh=63b94b59a9fe61673087833
+sa_000025.tar	https://www.learningcontainer.com/download/sample-large-zip-file/?wpdmdl=1639&refresh=63b94b59a9fe61673087833
+sa_000026.tar	https://www.learningcontainer.com/download/sample-large-zip-file/?wpdmdl=1639&refresh=63b94b59a9fe61673087833
